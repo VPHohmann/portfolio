@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    height: 100vh; 
+    gap: 25px; 
+}
+
+p {
+    margin-bottom: 4px; 
+}
+
+.openButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: none;
+    display: flex;
+    outline: none;
+}
+.navbar {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #c7dde0; 
+    padding: 10px 0; 
+    gap: 20px; 
+    z-index: 1000; 
+    position: sticky; 
+    top: 0;
+    width: 100%;
+}
+button:focus {
+    outline: none;
+}
+button:hover {
+    background-color: rgba(168, 177, 189, 0.1); /* Nova cor quando passar o mouse */
+}
+
+dialog {
+    width: 400px; 
+    padding: 20px; 
+    border-radius: 15px; 
+    background-color: rgb(255, 255, 255); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    border: none; 
+    font-family: Arial, sans-serif; 
+}
+
+dialog h2 {
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+    color: #333; /* Cor do título */
+}
+
+
+button.closeButton {
+    background-color: #3b7981; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove borda do botão */
+    padding: 10px 20px; /* Tamanho do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    border-radius: 5px; /* Arredonda as bordas do botão */
+    cursor: pointer; /* Cursor de clique */
+    margin-top: 20px; /* Espaçamento superior */
+}
+
+button.closeButton:hover {
+    background-color: #25a2b3 /* Cor mais escura ao passar o mouse */
+}
+
+button.closeButton:focus {
+    outline: none;
+}
+.ContactMeSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    margin-top: 70px;
+    background-color: #c7dde0;
+    border-radius: 10px;
+    padding: 25px;
+    width: 30%; /
+}
+
+.EmailCopy span {
+    display: block; 
+    margin-bottom: 10px; 
+    padding: 0; 
+    background: none; 
+    border: none; 
+}
+
+.EmailCopy button {
+    background-color: #edf2f3;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    box-shadow: 2px 2px 7px 2px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    width: 25%; 
+    margin-top: 20px; 
+}
+
+.testeAquiContainer {
+    margin-top: 5px; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#testeAqui {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #c7dde0;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    color: #333;
+    width: 300px; /* Ajusta o tamanho do campo */
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#testeAqui:focus {
+    outline: none;
+    border-color: #c7dde0; /* Altera a cor da borda quando o campo é focado */
+}
+
+#testeAqui::placeholder {
+    color: #888;  /* Cor do texto do placeholder */
+    font-style: italic; /* Deixa o texto do placeholder em itálico */
+}

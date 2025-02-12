@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        <button class="openButton" data-modal="aboutModal">Sobre</button>
+        <button class="openButton" data-modal="portfolioModal">Portfólio</button>
+        <button class="openButton" data-modal="contactModal">Contato</button>
+        <button class="openButton" data-modal="curiositiesModal">Curiosidades</button>
+    </div>
+
+<dialog id="aboutModal">
+    <h2>Sobre</h2>
+    <p>Olá! Meu nome é <strong>Vanessa Plombon Hohmann</strong> e eu sou desenvolvedora web, a procura de uma oportunidade de estágio.</p>
+    <p>Atualmente moro em <strong>Curitiba, PR</strong> e trabalho com <em>desenvolvimento front-end</em>.</p>
+    <p>Tenho interesse em áreas como:</p>
+    <ul>
+        <li>Desenvolvimento Web</li>
+        <li>Programação Orientada a Objetos</li>
+        <li>Robótica</li>
+    </ul>
+    <p>Em meu tempo livre, gosto de:</p>
+        <ol>
+            <li>Aprofundar meus estudos em inglês</li>
+            <li>Fazer edições de vídeos criativas</li>
+            <li>Explorar novas tecnologias</li>
+        </ol>
+    <p>Você pode entrar em contato comigo através do meu e-mail: <a href="mailto:vanessaplombon@gmail.com">vanessaplombon@gmail.com</a></p>
+    <button class="closeButton">Fechar</button>
+</dialog>
+    
+
+<dialog id="portfolioModal">
+    <h2>Portfólio</h2>
+    <p>Aqui estão alguns dos projetos em que trabalhei na faculdade</p>
+        <a href="projeto1.html" target="_blank">Ver Projeto</a>
+    </div>
+    <button class="closeButton">Fechar</button>
+</dialog>
+    
+<dialog id="contactModal">
+    <h2>Outras formas de contato</h2>
+    <ul>
+        <li>Celular: (41) 985231082</li>
+        <li>Linkedin: <a href="https://www.linkedin.com/in/vanessa-hohmann" target="_blank">linkedin.com/in/vanessa-hohmann</a></li>
+    </ul>
+    <button class="closeButton">Fechar</button>
+</dialog>
+
+<dialog id="curiositiesModal">
+    <h2>Curiosidades sobre mim</h2>
+    <p>Além de ser apaixonada pelo mundo da tecnologia, tenho hobbies que me permitem ser criativa de diversas formas.</p>
+    <p>Comecei a editar vídeos e fotos aos 12 anos, aprimorando minhas habilidades ao longo de 13 anos.</p>
+    <p>Gosto de artesanato, modelagem de biscuit, jardinagem e pintura.</p>
+    <p>Sou uma eterna aprendiz, sempre buscando novos conhecimentos e explorando diversas áreas.</p>
+    <p>Tenho interesse em paleontologia, inteligência artificial, geologia e programação de games.</p>
+    <p>Escrevo poemas e livros de ficção científica, explorando temas como identidade, natureza humana e tecnologia.</p>
+    <button class="closeButton">Fechar</button>
+</dialog>
+
+<section class="ContactMeSection">
+    <h2>Me mande um email</h2>
+    <div class="EmailCopy">
+        <span id="emailText">vanessaplombon@gmail.com</span>
+    </div>
+    <div class="EmailCopy">
+        <button id="copyButton">Copiar Email</button>
+    </div>
+</section>
+
+
+<div class="testeAquiContainer">
+    <input type="text" placeholder="teste aqui se copiou" id="testeAqui" />
+</div>
+
+<img src="img/Freepik.jpg"/>
+
+<p class="image-credit">
+    Desenhado por <a href="https://www.freepik.com" target="_blank">Freepik</a>
+</p>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
