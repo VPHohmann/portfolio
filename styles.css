@@ -1,24 +1,62 @@
 body {
-    background-color: rgb(195, 230, 250);
-    display: flex;          
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center;   
-    height: 100vh;        
+    background-color: rgb(226, 239, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 30px;
+    height: 100%;
 }
-h1{
-    background-color: rgb(167, 200, 243);
-    padding: 10px;
+
+button {
+    background-color: #7a93c2;
+    color: rgb(255, 255, 255);
+    border: 1px solid #412fe5 (149, 171, 226);
+    padding: 10px 20px;
+    font-size: 16px;
     border-radius: 5px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: none;
 }
-p{
-    font-family: sans-serif;
-    font-size: 1rem;
+
+button:hover {
+    background-color: rgb(92, 109, 155);
+    transform: scale(1.05);
 }
-img{
-    border: 2px solid black;
+
+.card {
+    width: 900px; 
+    margin: 10px auto;
+  }
+  
+.container {
+    display: block;
+    flex-wrap: wrap; 
+    justify-content: center;
 }
+
+.projetos {
+    width: 50%;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.btn-primary {
+    background-color: #7a93c2;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #412fe5; /* Cor ao passar o mouse */
+    border: none;
+}
+
+  
